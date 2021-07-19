@@ -83,7 +83,9 @@ body{
 @media only screen and (min-width: 414px) {
     .titlebar{
         width: 100vw;
-        background-color: blueviolet;
+        background-color: var(--body-colour);
+        border: 1px solid var(--coffee-light);
+        box-shadow: 0px 0px 5px 0px var(--coffee-light);
     }
     .sidebar{
         visibility: hidden;
@@ -91,21 +93,47 @@ body{
     .content-area{
         width: 100vw;
         margin: 0px;
+        margin-top: 70px;
         border: 0px;
+        padding: 20px;
     }
     .content-inner{
-        width: 100%;
+        width: calc(100vw - 40px);
         margin: 0px;
+        margin-top: 70px;
         border: 0px;
     }
 }
 
 @media only screen and (min-width: 771px) {
+    .titlebar{
+        width: 300px;
+        background-color: transparent;
+    }
+    .sidebar{
+
+    }
+
+    .content-area{
+        width: calc(100vw - 375px);
+        margin-left: 300px;
+        padding: 20px;
+        padding-top: 62px;
+        padding-left: 30px;
+        padding-bottom: 0px;
+        border-left: 1px solid var(--body-colour-alt2); /*rgb(237,237,237);*/
+    }
+    
+    .content-inner{
+        max-width: 1000px;
+    }
+
+}
 
 .titlebar{
     min-height: 60px;
     height: fit-content;
-    width: 300px;
+    /*vwidth: 300px;*/
     text-align: left;
     position: fixed;
     /*background-color: var(--body-colour);
@@ -189,12 +217,6 @@ body{
     width: calc(100vw - 375px);
     vertical-align: top;
     margin-top: 0px;
-    margin-left: 300px;
-    padding: 20px;
-    padding-top: 62px;
-    padding-left: 30px;
-    padding-bottom: 0px;
-    border-left: 1px solid var(--body-colour-alt2); /*rgb(237,237,237);*/
 }
 
 .content-inner{
