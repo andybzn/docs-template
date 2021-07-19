@@ -64,7 +64,23 @@
 }
 
 /* MOBILE */
-@media only screen and (min-width: 414px) {}
+@media only screen and (min-width: 414px) {
+    .titlebar{
+        width: 100vw;
+        background-color: var(--body-colour);
+    }
+    .sidebar{
+        display: none;
+    }
+    .content-area{
+        width: 100vw;
+        margin: 0;
+        border: 0;
+    }
+    .content-inner{
+        width: 100%;
+    }
+}
 
 @media only screen and (min-width: 771px) {}
 
