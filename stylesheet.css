@@ -80,8 +80,9 @@ body{
 }
 
 .titlebar{
-    height: 60px;
-    width: 100vw;
+    min-height: 60px;
+    height: fit-content;
+    width: 300px;
     text-align: left;
     position: fixed;
     /*background-color: var(--body-colour);
@@ -89,6 +90,7 @@ body{
     box-shadow: 0px 0px 10px 0px var(--body-colour-alt2);*/
     z-index: 999;
     display: relative;
+    word-wrap: break-word;
 }
 
 .logo{ 
@@ -108,7 +110,8 @@ body{
     position: absolute;
     top: 0px;
     left: 55px;
-    height: 60px;
+    min-height: 60px;
+    height: fit-content;
     width: auto;
     display: inline;
     margin-top: 0px;
@@ -119,13 +122,6 @@ body{
     color: var(--body-colour-alt);
 }
 
-.lightswitch{
-    position: absolute;
-    top: 11px;
-    right: 25px;
-    font-size: 25px;
-    cursor: pointer;
-}
 
 .sidebar{
     width: 284px;
@@ -229,7 +225,7 @@ hr{
 #hr2{
     width: 20%;
     margin-top: 60px;
-    margin-bottom: 35px;
+    margin-bottom: 110px;
     opacity: 0;
 }
 
@@ -241,6 +237,10 @@ h1{
     width: fit-content;
     scroll-margin-top: 75px;
     font-weight: 600;
+}
+
+a{
+    color: var(--accent-color);
 }
 
 .section-subtitle{
