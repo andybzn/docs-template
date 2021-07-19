@@ -63,6 +63,22 @@
     }
 }
 
+
+/* Document Structure Styling */
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-colour);
+    color: var(--font-colour);
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', sans-serif;
+    user-select: none;
+}
+
 /* MOBILE */
 @media only screen and (min-width: 414px) {
     .titlebar{
@@ -82,22 +98,9 @@
     }
 }
 
-@media only screen and (min-width: 771px) {}
+@media only screen and (min-width: 771px) {
 
-/* Document Structure Styling */
-html{
-    width: 100vw;
-    overflow-x: hidden;
-}
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--body-colour);
-    color: var(--font-colour);
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', sans-serif;
-    user-select: none;
-}
 
 .titlebar{
     min-height: 60px;
@@ -316,4 +319,4 @@ a{
     background-color: #f8d7da;
 }
 
-
+}
