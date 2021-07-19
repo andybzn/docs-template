@@ -70,7 +70,7 @@
         background-color: var(--body-colour);
     }
     .sidebar{
-        display: none;
+        visibility: hidden;
     }
     .content-area{
         width: 100vw;
