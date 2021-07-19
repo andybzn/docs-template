@@ -67,7 +67,7 @@
 @media only screen and (min-width: 414px) {
     .titlebar{
         width: 100vw;
-        background-color: var(--body-colour);
+        background-color: blueviolet;
     }
     .sidebar{
         visibility: hidden;
