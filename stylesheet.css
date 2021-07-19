@@ -115,6 +115,8 @@ body{
     .titlebar{
         width: 300px;
         background-color: transparent;
+        border: 0;
+        box-shadow: none;
     }
 
     .content-area{
