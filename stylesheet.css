@@ -271,6 +271,8 @@ h1{
 }
 
 .tooltip-optional, .tooltip-required{
+    border: 1px solid;
+    border-left: 5px solid;
     border-radius: 2px;
     border-left: 5px solid;
     padding-left: 5px;
@@ -282,9 +284,9 @@ h1{
 }
 
 .tooltip-optional{
-    color: orange;
-    border-color: yellow;
-    background-color: lightgoldenrodyellow;
+    color: #856404;
+    border-color: #ffeeba;
+    background-color: #fff3cd;
 
 }
 
