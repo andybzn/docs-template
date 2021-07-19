@@ -128,7 +128,9 @@ body{
         padding-bottom: 0px;
         border-left: 1px solid var(--body-colour-alt2); /*rgb(237,237,237);*/
     }
-    
+    .sidebar{
+        visibility: visible;
+    }
     .content-inner{
         max-width: 1000px;
     }
