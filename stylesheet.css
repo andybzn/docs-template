@@ -41,6 +41,7 @@
         --body-colour-alt2: var(--coffee-light);
         --font-colour:      var(--coffee-black);
         --font-colour-alt:  var(--coffee-grey2);
+        --code-color:       var(--coffee-black);
     }
 }
 
@@ -61,7 +62,7 @@
         --body-colour-alt2: var(--coffee-black);
         --font-colour:      var(--coffee-white);
         --font-colour-alt:  var(--coffee-white);
-        
+        --code-color:       var(--coffee-black);
     }
 }
 
@@ -325,6 +326,7 @@ a{
     user-select: text;
     margin-bottom: 10px;
     display: block;
+    color: var(--code-color);
 }
 
 .tooltip-optional, .tooltip-required{
